@@ -31,14 +31,14 @@
         <!-- ----------------------Navbar-------------------- -->
 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container">
-                <a class="navbar-brand" href="#">Silon.</a>
+            <div class="container mt-3">
+                <img  src="img/logo.png" alt="logo">
 
                 <div class="collapse navbar-collapse " id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
+                        <li class="nav-item dropdown nav_item">
+                            <a class="nav-link dropdown-toggle text-uppercase" href="#" id="navbarDropdown"
+                                role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Home
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -48,29 +48,31 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">About</a>
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Services</a>
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Project</a>
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">Project</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Blog</a>
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Contact</a>
+                            <a class="nav-link text-uppercase active" aria-current="page" href="#">Contact</a>
                         </li>
 
                     </ul>
-                    <div class="d-flex">
-                        <a href="#"><i class="bi bi-search px-3"></i></a>
-                        <a href="#"><i class="bi bi-cart4 px-3"></i></a>
-                        <a href="#"><i class="bi bi-emoji-heart-eyes px-3"></i></a>
+                    <div class="d-flex nav_icon ">
+                        <a href="#"><i class="bi bi-search px-4"></i></a>
+                        <a href="#"><i class="bi bi-cart4 px-4 position-relative"><span
+                                    class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    3+
+                                </span>
+                            </i> </a>
 
-
-
+                        <a href="#"><i class="bi bi-emoji-heart-eyes px-4"></i></a>
                     </div>
                 </div>
             </div>
@@ -82,8 +84,8 @@
             <div class="container">
                 <div class="row d-flex">
                     <div class="col-lg-6 text-center header_containt-text align-self-center">
-                        <p>ULTIMATE COLLECTION</p>
-                        <h1 class="display-1">Complete Women Fashion Here</h1>
+                        <p class="header_p">ULTIMATE COLLECTION</p>
+                        <h1 class="display-1 header_h1">Complete Women Fashion Here</h1>
                         <button type="button" class="btn btn-danger btn-lg px-5 my-4">Shop Now</button>
                     </div>
                     <div class="col-lg-6">
@@ -102,9 +104,12 @@
         <div class="container">
             <div class="product my-5">
                 <h2 class="text-center my-5">FEATURED PRODUCT</h2>
-                <div class="row">
+                <div class="row product_main">
                     <div class="col-lg-4 card border-0">
-                        <img src="img/1.jpg" class="card-img-top" alt="img">
+                        <div class="shadow bg-body rounded">
+                            <img src="img/1.jpg" class="card-img-top  rounded" alt="img">
+                        </div>
+                        
                         <div class="card-body text-center">
                             <h5 class="card-title">Red Women Purses</h5>
                             <div class="icon_star">
@@ -114,11 +119,13 @@
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                             </div>
-                            <button class="btn btn-danger px-5 mt-3">Buy</button>
+                            <button class="btn btn-danger px-5 py-2 mt-3">Buy</button>
                         </div>
                     </div>
                     <div class="card col-lg-4 border-0">
-                        <img src="img/2.jpg" class="card-img-top" alt="img">
+                        <div class="shadow bg-body rounded">
+                            <img src="img/2.jpg" class="card-img-top  rounded" alt="img">
+                        </div>
                         <div class="card-body text-center">
                             <h5 class="card-title ">Red Women Purses</h5>
                             <div class="icon_star">
@@ -128,12 +135,14 @@
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                             </div>
-                            <button class="btn btn-danger px-5 mt-3">Buy</button>
+                            <button class="btn btn-danger px-5 py-2 mt-3">Buy</button>
 
                         </div>
                     </div>
                     <div class="card col-lg-4 border-0">
-                        <img src="img/3.jpg" class="card-img-top" alt="img">
+                        <div class="shadow bg-body rounded">
+                            <img src="img/3.jpg" class="card-img-top  rounded" alt="img">
+                        </div>
                         <div class="card-body text-center">
                             <h5 class="card-title">Red Women Purses</h5>
                             <div class="icon_star">
@@ -143,7 +152,7 @@
                                 <i class="bi bi-star"></i>
                                 <i class="bi bi-star"></i>
                             </div>
-                            <button class="btn btn-danger px-5 mt-3">Buy</button>
+                            <button class="btn btn-danger px-5 py-2 mt-3">Buy</button>
                         </div>
                     </div>
 

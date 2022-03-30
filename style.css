@@ -1,6 +1,37 @@
+.nav_item li a:hover{
+    color: red;
+}
+.nav_menu li a:hover{
+    color: red;
+}
+.nav_icon a{
+    color: black;
+}
+.nav_icon a:hover{
+    color: red;
+}
 .header_containt{
     background: url("img/bg-1.jpg");
 }
+
+.header_p{
+    letter-spacing: 4px;
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+.header_h1{
+    font-size: 53px;
+}
+.icon_star{
+    color: red;
+}
+.product_main{
+    width: 86%;
+    margin: 0 auto;
+}
+
 .discount_section{
     background-color: #eae2d8;
 }
